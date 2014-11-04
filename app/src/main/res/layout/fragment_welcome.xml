@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="316dp"
+    android:id="@+id/circle"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_alignParentRight="true"
+    android:background="@drawable/circle_wlc" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/action_fitness"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/circle"
+        android:background="@drawable/action_fitness" />
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="slide to get started"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:textColor="#444"
+        android:id="@+id/shimmertext"
+        android:layout_alignParentBottom="true"
+        android:textSize="25dp"/>
+
+</RelativeLayout>
